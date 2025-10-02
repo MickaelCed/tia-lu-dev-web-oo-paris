@@ -3,6 +3,7 @@ import java.util.List;
 
 public class CentralDados {
     private static CentralDados instancia = new CentralDados();
+    private static CentralDados novaInstancia = new CentralDados();
     private List<Cliente> clientes;
     private List<ItemCardapio> cardapio;
     private List<Pedido> pedidos;
